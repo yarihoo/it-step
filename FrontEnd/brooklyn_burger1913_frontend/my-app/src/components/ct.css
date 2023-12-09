@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+*{
+  text-decoration: none;
+}
+
+.header-frame{
+  z-index: 3;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    cursor: pointer;
+    color: white;
+    font-family:"Copperplate Gothic Light";
+    font-size: 40px;
+    margin-left: 3%;
+    text-align: center;
+}
+
+#logo-text{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+#link-box{
+    margin-left: auto;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.link-item{
+    color: white;
+    font-family:"Century Gothic";
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.link-item:hover{
+    color: yellow;
+}
+
+.link-item-presc{
+    color: yellow;
+    font-size: 20px;
+    position: absolute;
+}
+
+#account-box{
+    overflow: hidden;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    margin-right: 40px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.link-box{
+  display: none;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: fixed;
+  right: 70px;
+  top: 80px;
+  padding: 10px;
+} 
+
+.adopted-link{
+    font-family:"Century Gothic";
+    font-size: 30px;
+    display: block;
+    margin: 20px 0;
+    color: white;
+
+}
+
+.adopted-link:hover{
+    color: yellow;
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30px;
+    width: 45px;
+    cursor: pointer;
+  }
+  
+  .line {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+  }
+
+  @media screen and (max-width: 1400px) {
+    .link-item {
+      display: none;
+    }
+    #account-box{
+        display: none;
+      }
+      .menu {
+        display: flex;
+      }
+  }
+  
+  @media screen and (min-width: 1400px) {
+    .link-item {
+      display: inline-block;
+    }
+    #account-box{
+        display: inline-block;
+      }
+      .menu {
+        display: none;
+      }
+  }
+  @media screen and (max-width: 610px) {
+    #logo{
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 610px) {
+    #logo{
+      display: inline-block;
+    }
+  }
+
+  .header-white-line{
+    background-color: white;
+    height: 0.1vw;
+    width: 100%;
+    top: 100px;
+    position: fixed;
+    z-index: 2;
+  }
+
+  .cropper-container{
+    margin: 0 auto;
+    background-color: white;
+    width: 600px;
+    padding: 30px;
+    border-radius: 50px;
+  }
+
+  .cropped-image{
+    margin: 0 50px;
+    width: 500px;
+  }
+
+  .cropper-btn{
+    font-size: 25px;
+    padding: 5px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+  }
+
+  .crop-btn{
+    background-color: limegreen;
+  }
+
+  .crop-btn:hover{
+    background-color: darkgreen;
+  }
+
+  .close-btn{
+    float: right;
+    background-color: firebrick;
+  }
+
+  .close-btn:hover{
+    background-color: black;
+  }
+
+  .footer-container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 0.3vw;
+    font-size: 2vw;
+  }
+
+.footer-link{
+  color: yellow;
+}
+
+.footer-link:hover{
+  color: darkgoldenrod;
+}

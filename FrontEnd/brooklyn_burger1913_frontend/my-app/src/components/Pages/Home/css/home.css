@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Standard syntax */
+}
+
+
+#main-frame{
+    width: 100%;
+    margin-top: 100px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.image-box{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 25px;
+}
+
+.main-frame-button{
+    font-size: 2vw;
+    margin: 1vw auto;
+    text-align: center;
+    color: yellow;
+    border: 2px solid yellow;
+    border-radius: 0.5vw;
+    display: block;
+    width: 15vw;
+}
+
+.main-frame-button:hover{
+    color: darkorange;
+    border-color: darkorange;
+}
+
+.arrow-sign{
+    position: absolute;
+    color: yellow;
+    top: 39%;
+    font-size: 2vw;
+    border: 2px solid yellow;
+    display: block;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+
+.arrow-sign:hover{
+    color: darkorange;
+    border-color: darkorange;
+}
+
+.deal-item-image{
+    width: 100%;
+    height: 100%;
+}
+
+.deal-name{
+    margin: 0 auto;
+    font-size: 2.8vw;
+    color: white;
+    font-weight: bold;
+    font-family: "Goudy Old Style";
+}
+
+.deal-description{
+    font-weight: lighter;
+    margin: 0 auto;
+    width: 40%;
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+}
+
+.deal-price{
+    font-weight: bold;
+    margin: 0 auto;
+    width: 20%;
+    font-size: 2.2vw;
+    color: white;
+    text-align: center;
+}
+
+.about-us{
+    background-color: black;
+    margin-top: 5vw;
+    display: flex;
+    align-items: flex-start;
+}
+
+#about-us-banner{
+    width: 100%;
+    height: 40vw;
+}
+
+.interior-image{
+    display: inline-block;
+    width: 40vw;
+    margin: 5vw 5vw 2vw 5vw;
+    border-radius: 5vw;
+}
+
+.about-us-banner-text{
+    display: inline-block;
+    color: white;
+    font-size: 1.5vw;
+    width: 45vw;
+    margin: 3vw 0 0 0;
+}
+
+.white-line{
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    margin: 4vw auto;
+    border-radius: 2px;
+}
+
+.category-title{
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Goudy Old Style";
+}
+
+.subcategory-title{
+    margin-top: 3vw;
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+    font-weight: lighter;
+    font-family: "Goudy Old Style";
+
+}
+
+.product-table{
+    padding: 100px 5% 0 5%;
+    background-color: black;
+    min-height: 70vw;
+}
+
+
+.product-text{
+    padding: 1vw;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    font-weight: lighter;
+}
+.product-image{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 4vw;
+}
+
+.counter{
+    border: none;
+    color: white;
+    background-color: transparent;
+    width: 3.5vw;
+    font-size: 2vw;
+}
+
+.add-to-bag{   
+    width: 11vw;
+    display: inline-block;
+    color: yellow;
+    border: 2px solid yellow;
+    border-radius: 1vw;
+}
+
+.add-to-bag:hover{
+    color: darkorange;
+    border-color: darkorange;
+}
+
+.checkout-btn{
+    color: yellow;
+    font-size: 5vw;
+    font-weight: lighter;
+    border: 2px solid yellow;
+    text-align: center;
+    width: 30%;
+    padding-bottom: 0.5vw;
+    border-radius: 5vw;
+    margin: 2vw auto;
+}
+
+.checkout-btn:hover{
+    color: darkorange;
+    border-color: darkorange;
+}
+
+.about-image-frame{
+    height: 20vw;
+    width: 80vw;
+    border-radius: 5vw;
+    margin: 2vw auto;
+    overflow: hidden;
+}
+
+.about-image{
+    width: 100%;
+}
+
+.about-text{
+    font-size: 3vw;
+    color: white;
+    width: 90%;
+    margin: 1vw auto;
+    text-align: left;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.selectable{
+    user-select: text;
+}
+
+.empty-box{
+    color: white;
+    text-align: center;
+    font-size: 9vw;
+    padding-top: 20vw;
+    font-weight: lighter;
+}

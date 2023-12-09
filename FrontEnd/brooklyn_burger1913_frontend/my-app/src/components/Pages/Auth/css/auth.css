@@ -1,0 +1,122 @@
+.auth-container{
+    padding-top: 100px;
+    overflow: hidden;
+}
+
+.auth-frame{
+    width: 30%;
+    background-color: black;
+    margin: 5vw auto;
+    border-radius: 3vw;
+    text-align: center;
+    padding: 1vw 0;
+}
+
+.mini-logo{
+    color: yellow;
+    font-family:"Copperplate Gothic Light";
+    font-size: 3vw;
+}
+
+.text-box{
+    margin: 2vw 0;
+    display: inline-block;
+    font-size: 1.5vw;
+    width: 70%;
+    border-radius: 0.5vw;
+}
+
+.auth-link{
+    color: yellow;
+    font-size: 1.5vw;
+  }
+
+  .auth-link:hover{
+    color: darkorange;
+  }
+
+  .auth-button{
+    margin: 1.5vw;
+    color: yellow;
+    font-size: 2vw;
+    border: 2px solid yellow;
+    border-radius: 1.5vw;
+    display: inline-block;
+    width: 50%;
+    padding: 0.2vw;
+  }
+
+  .auth-button:hover{
+    color: darkorange;
+    border-color: darkorange;
+  }
+
+  .pointer-text{
+    color: white;
+    margin: 2vw 0 1vw 0;
+    font-size: 1.5vw;
+  }
+
+  .google-auth-btn{
+    margin: 0 2vw 2vw 2vw;
+    font-size: 2.5vw;
+    background-color: white;
+    display: inline-block;
+    width: 50%;
+    padding: 0.2vw;
+    border-radius: 4vw;
+  }
+
+  .google-auth-btn:hover{
+    background-color: lightgray;
+  }
+
+  .password-container{
+    width: 97%;
+    position: relative;
+  }
+
+  .password-box{
+    width: 70%;
+    position: absolute;
+    left: 15%;
+  }
+
+  .eye-image{
+    position: absolute;
+    width: 3vw; 
+    margin-top: 2.2vw;
+    margin-left: 0.5vw;
+  }
+
+  .eye-image:hover{
+    opacity: 50%;
+  }
+
+  .account-image-picker{
+    margin: 1vw;
+    background-color: white;
+    display: inline-block;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 5vw;
+    overflow: hidden;
+  }
+
+  #img-picker{
+    display: none;
+  }
+
+  .acc-img{
+    height: 100%;
+    width: 100%;
+  }
+
+.google-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 2vw 0;
+}
